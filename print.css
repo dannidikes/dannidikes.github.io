@@ -1,0 +1,22 @@
+body {
+  background: transparent;
+  color: black;
+  font-size: 12pt;
+  font-family: serif;
+}
+
+@print {
+  margin: 0.5in;
+}
+
+#nav-menu {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  display: none;
+}

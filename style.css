@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700|Oxygen:400,700);
+
+#home {
+  font-family: 'Oxygen', sans-serif;
+  color: rgb(77,71,73);
+  font-size: 40px;
+}
+
+body {
+  font-family: 'Arimo', sans-serif;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+}
+
+h2 {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 25px;
+  color: rgb(14,78,45);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
+}
+
+a:hover {
+  color: rgb(171,149,99);
+}
+
+#contact p {
+  padding: 0;
+  margin: 0;
+}
+
+#contact p {
+  float: left;
+}
+
+#contact p {
+  height: 1em;
+  line-height: 1em;
+  width: 7em;
+  display: block;
+  border: none;
+  text-decoration: none;
+  text-align: left;
+}
+
+#nav-menu ul {
+  clear: both;
+}
+
+#nav-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#nav-menu li {
+  float: left;
+}
+
+#nav-menu li a {
+  height: 3em;
+  line-height: 3em;
+  width: 8em;
+  display: block;
+  border: none;
+  text-decoration: none;
+  text-align: left;
+  font-size: 15px;
+}
+
+
+section, h2 {
+  clear:both;
+}
+
+section, h3 {
+  font-size: 16px;
+}
+
+footer #nav-menu li {
+  height: 1em;
+  line-height: 1em;
+  width: 8em;
+  font-size: 15px
+}
