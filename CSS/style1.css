@@ -197,6 +197,10 @@ article a:active {
 }
 
 iframe src {
-  margin: 1em;
   border: 2px solid black;
+}
+
+iframe {
+  margin: 1em;
+  margin-left: 0em;
 }
