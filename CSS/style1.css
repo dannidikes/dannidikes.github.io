@@ -198,6 +198,8 @@ article a:active {
 
 iframe src {
   padding: 2em;
+  margin: 1em;
+  margin-left: 0em;
 }
 
 iframe {
