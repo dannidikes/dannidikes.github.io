@@ -14,6 +14,14 @@ nav ul {
   padding-left: 0em;
 }
 
+nav li a:visited {
+  color: inherit;
+}
+
+nav li a:active {
+  color: white;
+}
+
 img {
   width: 100%;
 }
