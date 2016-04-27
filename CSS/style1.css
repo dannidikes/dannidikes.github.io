@@ -196,7 +196,7 @@ article a:active {
   margin-top: 2em;
 }
 
-h2 iframe {
+iframe src {
   margin: 1em;
   border: 2px solid black;
 }
