@@ -2,26 +2,20 @@
 
 #home {
   font-family: 'Oxygen', sans-serif;
-  color: rgb(77,71,73);
+  color: black;
   font-size: 40px;
 }
 
 body {
   font-family: 'Arimo', sans-serif;
   width: 700px;
-  margin-left: auto;
-  margin-right: auto;
   color: black;
-}
-
-img {
-  border:1px solid black;
 }
 
 h2 {
   font-family: 'Oxygen', sans-serif;
   font-size: 25px;
-  color: rgb(14,78,45);
+  color: black;
 }
 
 a {
@@ -29,24 +23,30 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+nav li a:hover {
+  border-bottom: 1px dashed black;
+  text-decoration: none;
+  padding-bottom: 0em;
+}
+
+nav li a:visited {
   color: inherit;
 }
 
-a:hover {
-  color: rgb(171,149,99);
+nav li a:active {
+  color: white;
 }
 
-#contact p {
+address p {
   padding: 0;
   margin: 0;
 }
 
-#contact p {
+address p {
   float: left;
 }
 
-#contact p {
+address p {
   height: 1em;
   line-height: 1em;
   width: 7em;
@@ -56,31 +56,29 @@ a:hover {
   text-align: left;
 }
 
-.nav-menu ul {
+nav ul {
   clear: both;
 }
 
-.nav-menu ul {
+nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.nav-menu li {
+nav li {
   float: left;
 }
 
-.nav-menu li a {
-  height: 3em;
-  line-height: 3em;
-  width: 8em;
+nav li a {
+  padding: 1em;
+  padding-left: 0em;
   display: block;
   border: none;
   text-decoration: none;
   text-align: left;
   font-size: 15px;
 }
-
 
 section, h2 {
   clear:both;

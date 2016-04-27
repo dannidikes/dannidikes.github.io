@@ -9,12 +9,13 @@ body {
   margin: 0.5in;
 }
 
-.nav-menu {
+nav {
   display: none;
 }
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 img {
@@ -23,4 +24,8 @@ img {
 
 footer {
   display: none;
+}
+
+@media print {
+  .page-break { display: block; page-break-before: always; }
 }
