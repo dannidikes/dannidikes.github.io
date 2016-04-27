@@ -191,11 +191,12 @@ article a:active {
 
 /* MEDIA PAGE */
 
-#font {
+.font {
   font-size: 30px;
   margin-top: 2em;
 }
 
 iframe {
-  padding: 1em;
+  margin: 1em;
+  border: 2px solid black;
 }
