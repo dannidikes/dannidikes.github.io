@@ -1,5 +1,9 @@
 @media (max-width: 320px) {
 
+html {
+  zoom: 100%;
+}
+
 h1 {
   font-size: 40px;
 }
@@ -45,7 +49,7 @@ iframe {
   padding-left: 0em;
 }
 
-#left {
+.left {
   width: 90%;
   padding: 1em;
   padding-left: 1em;
@@ -55,15 +59,15 @@ iframe {
   font-size: 10px;
 }
 
-#left ul {
+.left ul {
   font-size: 10px;
 }
 
-#left h3 {
+.left h3 {
   font-size: 12px;
 }
 
-#left p {
+.left p {
   font-size: 10px;
   line-height: 1em;
 }
