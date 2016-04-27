@@ -191,7 +191,7 @@ article a:active {
 
 /* MEDIA PAGE */
 
-.font {
+article .font {
   font-size: 30px;
   margin-top: 2em;
 }
