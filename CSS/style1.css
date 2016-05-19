@@ -109,14 +109,15 @@ img.align-left {
 #contact-pic {
   margin-left: 1.25em;
   border: none;
-  width: auto;
+  width: 717px;
+  height: 717px;
 }
 
 .linkedin, .facebook, .instagram, .twitter, .vimeo {
   display: inline-block;
   font-size: 3em;
   border-bottom: none;
-  margin-left: 1.25em;
+  margin-left: .75em;
 }
 
 /* RESUME PAGE */
