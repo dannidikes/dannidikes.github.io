@@ -74,6 +74,10 @@ img {
   width: 700px;
 }
 
+section img {
+  width: 1366px;
+  height: 768px;
+}
 
 /* ABOUT PAGE */
 
