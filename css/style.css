@@ -156,7 +156,7 @@ article a:active {
   line-height: 1em;
 }
 
-#right {
+.right {
   padding: 2em;
   width: 650px;
   margin: 2em;
@@ -165,29 +165,16 @@ article a:active {
   float: right;
 }
 
-#right h3 {
+.right h3 {
   font-size: 30px;
 }
 
-#right p {
+.right p {
   font-size: 25px;
   line-height: 1em;
 }
 
-#right ul {
-  font-size: 25px;
-}
-
-#right-2 {
-  padding: 2em;
-  width: 650px;
-  margin: 2em;
-  border: 1px solid white;
-  float: right;
-  margin-left: 0em;
-}
-
-#right-2 ul {
+.right ul {
   font-size: 25px;
   line-height: 1.5em;
 }
