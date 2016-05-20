@@ -1,32 +1,58 @@
-@import url(https://fonts.googleapis.com/css?family=Arimo:400,700|Oxygen:400,700);
+@import url(https://fonts.googleapis.com/css?family=Marmelad|Exo+2|Lato);
 
-#home {
-  font-family: 'Oxygen', sans-serif;
-  color: black;
-  font-size: 40px;
+@media all {
+  .page-break { display: none; }
 }
 
 body {
-  font-family: 'Arimo', sans-serif;
-  width: 700px;
+  font-family: 'Exo+2', sans-serif;
+  color: black;
+  background-color: #6384bd;
+  font-size: 30px;
   color: black;
 }
 
-h2 {
-  font-family: 'Oxygen', sans-serif;
-  font-size: 25px;
-  color: black;
+html {
+  width: 100%;
+  height: 100%;
+  zoom: 67%;
 }
 
-a {
-  color: inherit;
+#home, #about, #resume, #media, #contact {
+  font-family: 'Lato', sans-serif;
+  color: black;
+  font-size: 50px;
+  padding-top: .5em;
+}
+
+h1 {
+  font-family: 'Marmelad', sans-serif;
+}
+
+nav ul {
+  margin: 0;
+  list-style: none;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 1em;
+  padding-left: 0em;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 2em;
+}
+
+nav li a {
+  display: inline-block;
+  padding: 0em;
+  border-bottom: 1px solid black;
   text-decoration: none;
 }
 
 nav li a:hover {
   border-bottom: 1px dashed black;
   text-decoration: none;
-  padding-bottom: 0em;
 }
 
 nav li a:visited {
@@ -37,60 +63,144 @@ nav li a:active {
   color: white;
 }
 
-address p {
-  padding: 0;
-  margin: 0;
+img {
+  display: block;
+  margin: 0 auto;
 }
 
-address p {
+#write {
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+}
+
+section img {
+  width: 1366px;
+  height: 768px;
+}
+
+/* ABOUT PAGE */
+
+#container {
+  margin: auto;
+}
+
+#content {
+  font-size: 20px;
+  padding-top: 3em;
+  margin-left: 25%;
+  width: 700px;
+}
+
+img.medium {
+  border: 1px solid black;
+  width: 359px;
+  height: 358px;
+}
+
+img.align-left {
+  float: left;
+  margin-left: 30px;
+  margin-top: 150px;
+}
+
+/* CONTACT PAGE */
+
+#contact-pic {
+  margin-left: 1.25em;
+  border: none;
+  width: 717px;
+  height: 717px;
+}
+
+.linkedin, .facebook, .instagram, .twitter, .vimeo {
+  display: inline-block;
+  font-size: 3em;
+  border-bottom: none;
+  margin-left: .75em;
+}
+
+/* RESUME PAGE */
+
+article a:hover {
+  border-bottom: 1px dashed black;
+  text-decoration: none;
+}
+
+article a:visited {
+  color: inherit;
+}
+
+article a:active {
+  color: white;
+}
+
+.left {
+  padding: 2em;
+  width: 650px;
+  margin: 2em;
+  border: 1px solid white;
   float: left;
 }
 
-address p {
-  height: 1em;
+.left ul {
+  font-size: 25px;
+}
+
+.left h3 {
+  font-size: 30px;
+}
+
+.left p {
+  font-size: 25px;
   line-height: 1em;
-  width: 7em;
-  display: block;
-  border: none;
-  text-decoration: none;
-  text-align: left;
 }
 
-nav ul {
-  clear: both;
+#right {
+  padding: 2em;
+  width: 650px;
+  margin: 2em;
+  margin-left: 0em;
+  border: 1px solid white;
+  float: right;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+#right h3 {
+  font-size: 30px;
 }
 
-nav li {
+#right p {
+  font-size: 25px;
+  line-height: 1em;
+}
+
+#right ul {
+  font-size: 25px;
+}
+
+#right-2 {
+  padding: 2em;
+  width: 650px;
+  margin: 2em;
+  border: 1px solid white;
   float: left;
+  position: relative;
 }
 
-nav li a {
-  padding: 1em;
-  padding-left: 0em;
-  display: block;
-  border: none;
-  text-decoration: none;
-  text-align: left;
-  font-size: 15px;
+#right-2 ul {
+  font-size: 25px;
+  line-height: 1.5em;
 }
 
-section, h2 {
-  clear:both;
+/* MEDIA PAGE */
+
+iframe {
+border: 2px solid black;
+margin: 1em;
+margin-left: 0em;
 }
 
-section, h3 {
-  font-size: 16px;
-}
-
-footer #nav-menu li {
-  height: 1em;
-  line-height: 1em;
-  width: 8em;
-  font-size: 15px
+.font {
+  font-size: 30px;
+  margin-top: 2em;
 }
