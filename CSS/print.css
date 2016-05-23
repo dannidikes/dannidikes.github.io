@@ -1,3 +1,5 @@
+@media print {
+
 body {
   background: transparent;
   color: black;
@@ -5,7 +7,7 @@ body {
   font-family: serif;
 }
 
-@print {
+@page {
   margin: 0.5in;
 }
 
@@ -26,6 +28,9 @@ footer {
   display: none;
 }
 
-@media print {
-  .page-break { display: block; page-break-before: always; }
+.page-break {
+  display: block;
+  page-break-before: always;
+}
+
 }
