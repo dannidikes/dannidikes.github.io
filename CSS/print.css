@@ -1,5 +1,10 @@
 @media print {
 
+.page-break {
+  display: block;
+  page-break-before: always;
+}
+
 body {
   background: transparent;
   color: black;
@@ -26,11 +31,6 @@ img {
 
 footer {
   display: none;
-}
-
-.page-break {
-  display: block;
-  page-break-before: always;
 }
 
 }
