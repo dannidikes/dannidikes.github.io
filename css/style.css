@@ -141,7 +141,6 @@ article a:active {
   margin: 2em;
   border: 1px solid white;
   float: left;
-  overflow: auto;
 }
 
 .left ul {
