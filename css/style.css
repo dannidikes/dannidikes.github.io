@@ -48,6 +48,7 @@ nav li a {
   padding: 0em;
   border-bottom: 1px solid black;
   text-decoration: none;
+  color: black;
 }
 
 nav li a:hover {
@@ -121,6 +122,10 @@ img.align-left {
 }
 
 /* RESUME PAGE */
+
+article a {
+  color: black;
+}
 
 article a:hover {
   border-bottom: 1px dashed black;
