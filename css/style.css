@@ -18,15 +18,11 @@ html {
   zoom: 67%
 }
 
-#home, #about, #resume, #media, #contact {
+header h1 {
   font-family: 'Lato', sans-serif;
   color: black;
   font-size: 50px;
-  padding-top: .5em;
-}
-
-h1 {
-  font-family: 'Marmelad', sans-serif;
+  text-align: center;
 }
 
 nav ul {
@@ -35,15 +31,16 @@ nav ul {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
   padding: 1em;
-  padding-left: 0em;
+  text-align: center;
 }
 
-nav li {
+nav ul li {
   display: inline-block;
-  margin-right: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
-nav li a {
+nav ul li a {
   display: inline-block;
   padding: 0em;
   border-bottom: 1px solid black;
@@ -51,16 +48,16 @@ nav li a {
   color: black;
 }
 
-nav li a:hover {
+nav ul li a:hover {
   border-bottom: 1px dashed black;
   text-decoration: none;
 }
 
-nav li a:visited {
+nav ul li a:visited {
   color: inherit;
 }
 
-nav li a:active {
+nav ul li a:active {
   color: white;
 }
 
@@ -114,7 +111,11 @@ img.align-left {
   height: 1024px;
 }
 
-.linkedin, .facebook, .instagram, .twitter, .vimeo {
+.linkedin, 
+.facebook, 
+.instagram, 
+.twitter, 
+.vimeo {
   display: inline-block;
   font-size: 3em;
   border-bottom: none;
