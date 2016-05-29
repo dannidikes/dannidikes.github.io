@@ -72,14 +72,14 @@ img {
   height: auto;
 }
 
-/* ABOUT PAGE */
-
-#container {
-  margin: 40px auto;
+.container {
+  margin: auto;
   padding-left: 1em;
   padding-right: 1em;
   max-width: 1000px;
 }
+
+/* ABOUT PAGE */
 
 p {
   font-size: 22px;
