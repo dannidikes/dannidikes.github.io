@@ -90,6 +90,16 @@ section p {
   width: 100%;
 }
 
+.left h3,
+.right h3 {
+  font-size: 20px;
+}
+
+.left p,
+.right p {
+  font-size: 16px;
+}
+
 .linkedin, .facebook, .instagram, .twitter, .vimeo {
   display: inline-block;
   font-size: 25px;
