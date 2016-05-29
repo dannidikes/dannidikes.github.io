@@ -30,7 +30,7 @@ header h1 {
 }
 
 nav ul {
-  margin: 0;
+  margin-bottom: 1em;
   list-style: none;
   background: #ffffff;
   padding: 1em;
