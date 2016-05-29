@@ -9,19 +9,11 @@ header h1 {
   font-size: 1em;
 }
 
-nav li {
+nav ul li {
   margin: 0;
   display: block;
   text-align: center;
   font-size: 16px;
-}
-
-nav li a:visited {
-  color: black;
-}
-
-nav li a:active {
-  color: white;
 }
 
 img {
