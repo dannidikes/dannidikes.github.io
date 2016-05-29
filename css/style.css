@@ -66,7 +66,10 @@ nav ul li a:active {
   color: white;
 }
 
-section {
+.resume {
+  width: 50%;
+  float: left;
+  padding: 1em;
   text-align: center;
 }
 
