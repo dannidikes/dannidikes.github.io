@@ -82,13 +82,13 @@ img {
 
 /* ABOUT PAGE */
 
-.text-left {
-  text-align: left;
-}
-
 p {
   font-size: 22px;
   line-height: 30px;
+}
+
+.text-left p {
+  text-align: left;
 }
 
 img.medium {
