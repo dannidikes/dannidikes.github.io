@@ -98,8 +98,8 @@ p {
 
 img.medium {
   border: 1px solid black;
-  width: 359px;
-  height: 358px;
+  /*width: 359px;
+  height: 358px;*/
 }
 
 img.align-left {
