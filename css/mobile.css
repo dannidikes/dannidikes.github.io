@@ -77,8 +77,9 @@ section p {
 
 .left,
 .right {
-  width: 100%;
-  display: block;
+  width: auto;
+  margin: 0;
+  padding: 1em;
 }
 
 #contact-pic {
