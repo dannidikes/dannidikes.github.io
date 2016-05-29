@@ -29,6 +29,11 @@ header h1 {
   color: #ffffff;
 }
 
+h2 {
+  font-size: 22px;
+  margin-bottom: 1em;
+}
+
 nav ul {
   margin-top: 0;
   margin-bottom: 1em;
@@ -190,9 +195,4 @@ iframe {
   border: 2px solid black;
   margin: 1em;
   margin-left: 0em;
-}
-
-.font {
-  margin-top: 0;
-  font-size: 30px;
 }
