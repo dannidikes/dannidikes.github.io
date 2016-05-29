@@ -87,6 +87,10 @@ img {
   width: 700px;
 }
 
+p {
+  font-size: 16px;
+}
+
 img.medium {
   border: 1px solid black;
   width: 359px;
