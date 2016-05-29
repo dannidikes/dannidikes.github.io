@@ -87,7 +87,7 @@ p {
   line-height: 30px;
 }
 
-.text-left p {
+#container p {
   text-align: left;
 }
 
