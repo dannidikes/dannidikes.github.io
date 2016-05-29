@@ -120,7 +120,15 @@ img.align-left {
   display: inline-block;
   font-size: 3em;
   border-bottom: none;
-  margin-left: .75em;
+  margin: 0 .25em;
+}
+
+.linkedin a, 
+.facebook a, 
+.instagram a, 
+.twitter a, 
+.vimeo a {
+  color: #000000;
 }
 
 /* RESUME PAGE */
