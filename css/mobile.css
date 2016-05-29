@@ -62,25 +62,25 @@ iframe {
   padding-left: 0em;
 }
 
-.left {
-  width: 90%;
+section {
+  width: 50%;
+  float: left;
   padding: 1em;
-  padding-left: 1em;
   float: none;
   position: relative;
   margin-left: 0em;
   font-size: 10px;
 }
 
-.left ul {
+section ul {
   font-size: 10px;
 }
 
-.left h3 {
+section h3 {
   font-size: 12px;
 }
 
-.left p {
+section p {
   font-size: 10px;
   line-height: 1em;
 }
