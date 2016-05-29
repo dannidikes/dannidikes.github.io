@@ -66,13 +66,6 @@ nav ul li a:active {
   color: white;
 }
 
-.resume {
-  width: 50%;
-  float: left;
-  padding: 1em;
-  text-align: center;
-}
-
 img {
   display: inline-block;
   max-width: 100%;
@@ -152,7 +145,7 @@ article a:active {
 
 .left {
   padding: 2em;
-  width: 650px;
+  width: 45%;
   margin: 2em;
   border: 1px solid white;
   float: left;
@@ -173,7 +166,7 @@ article a:active {
 
 .right {
   padding: 2em;
-  width: 650px;
+  width: 45%;
   margin: 2em;
   margin-left: 0em;
   border: 1px solid white;
