@@ -80,6 +80,7 @@ section p {
   width: auto;
   margin: 0;
   padding: 1em;
+  float: none;
 }
 
 #contact-pic {
