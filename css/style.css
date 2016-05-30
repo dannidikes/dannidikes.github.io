@@ -155,22 +155,25 @@ article a:active {
   float: left;
 }
 
-.left ul {
-  font-size: 25px;
-}
-
-.left h3 {
-  font-size: 30px;
-}
-
-.left p {
-  font-size: 25px;
-  line-height: 1em;
-}
-
 .right {
   width: 50%;
   float: right;
+}
+
+.left ul,
+.right ul {
+  font-size: 25px;
+}
+
+.left h3,
+.right h3 {
+  font-size: 24px;
+}
+
+.left p,
+.right p {
+  font-size: 20px;
+  line-height: 1em;
 }
 
 .box {
@@ -179,19 +182,6 @@ article a:active {
   margin-left: 2em;
   margin-right: 2em;
   border: 1px solid white;
-}
-
-.right h3 {
-  font-size: 30px;
-}
-
-.right p {
-  font-size: 25px;
-  line-height: 1em;
-}
-
-.right ul {
-  font-size: 25px;
 }
 
 /* MEDIA PAGE */
