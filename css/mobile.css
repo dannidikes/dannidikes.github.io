@@ -71,6 +71,11 @@ section p {
   margin: 1em;
 }
 
+.left,
+.right {
+  float: none;
+}
+
 .left h3,
 .right h3 {
   font-size: 20px;
