@@ -47,16 +47,6 @@ article img {
   width: 50%;
 }
 
-#pic {
-  margin-top: 2em;
-  margin-right: 1em;
-  margin-bottom: 8em;
-}
-
-#font {
-  font-size: 20px;
-}
-
 iframe {
   width: 100%;
   padding: 0;
@@ -76,18 +66,9 @@ section p {
   line-height: 1em;
 }
 
-.left,
-.right {
-  width: auto;
-  margin: 1em;
+.box {
   padding: 1em;
-  float: none;
-}
-
-#contact-pic {
-  margin-left: 0em;
-  border: none;
-  width: 100%;
+  margin: 1em;
 }
 
 .left h3,
