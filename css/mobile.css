@@ -74,6 +74,7 @@ section p {
 .left,
 .right {
   float: none;
+  width: 100%;
 }
 
 .left h3,
