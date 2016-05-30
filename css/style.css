@@ -151,12 +151,7 @@ article a:active {
 }
 
 .left {
-  padding: 1em 2em;
-  width: 35%;
-  margin-bottom: 1em;
-  margin-left: 2em;
-  margin-right: 2em;
-  border: 1px solid white;
+  width: 50%;
   float: left;
 }
 
@@ -174,13 +169,16 @@ article a:active {
 }
 
 .right {
+  width: 50%;
+  float: right;
+}
+
+.box {
   padding: 1em 2em;
-  width: 35%;
   margin-bottom: 1em;
   margin-left: 2em;
   margin-right: 2em;
   border: 1px solid white;
-  float: right;
 }
 
 .right h3 {
